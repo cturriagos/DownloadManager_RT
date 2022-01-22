@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="135dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/txtfichero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="25dp"
+                android:layout_toStartOf="@+id/btnPdf"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtfecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtfichero"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="25dp"
+                android:layout_toStartOf="@+id/btnPdf"
+                android:text="TextView" />
+
+            <ImageButton
+                android:id="@+id/btnPdf"
+                android:layout_width="82dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="7dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/download_file_files_pdf_icon_1320184619509952330" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
