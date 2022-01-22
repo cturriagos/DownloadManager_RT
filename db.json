@@ -1,0 +1,22 @@
+[
+   {
+      "fichero":"Archivo descargable",
+      "fecha":"12/12/2018",
+      "ruta":"https://sga.uteq.edu.ec/media/actividad/2021/12/11/archivo_20211211235510.pdf"
+   },
+   {
+      "fichero":"Otro archivo descargable",
+      "fecha":"5/4/2020",
+      "ruta":"https://sga.uteq.edu.ec/media/actividad/2021/12/11/archivo_20211211235510.pdf"
+   },
+   {
+      "fichero":"Un archivo descargable",
+      "fecha":"1/1/2005",
+      "ruta":"https://sga.uteq.edu.ec/media/actividad/2021/12/11/archivo_20211211235510.pdf"
+   },
+   {
+      "fichero":"Último archivo descargable",
+      "fecha":"3/3/2016",
+      "ruta":"https://sga.uteq.edu.ec/media/actividad/2021/12/11/archivo_20211211235510.pdf"
+   }
+]
